@@ -1,0 +1,124 @@
+@import "../base/global.css";
+
+.header {
+  /* position: fixed; */
+  width: 100%;
+}
+.header__container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "roboto";
+}
+.navbar {
+  display: flex;
+  gap: 40px;
+}
+.header__nav__btn {
+  font-family: "Roboto", sans-serif;
+  padding: 12px 32px;
+  border: 1px solid #1d2130;
+  background: #1d2130;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header__nav__btn:hover {
+  border: 1px solid #fff#1d2130;
+  background-color: #fff;
+  color: #1d2130;
+}
+.header__nav__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #525560;
+  transition: 0.5s;
+}
+.header__nav__link:hover {
+  color: #1d2130;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav__item {
+  cursor: pointer;
+  position: relative;
+}
+.nav__item::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #1d2130;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.nav__item:hover::after {
+  width: 100%;
+}
+.hamburger {
+  display: none;
+}
+#navbar-responsive {
+  display: none;
+  position: fixed;
+  /* top: -100%; */
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 100vh;
+  background-color: rgb(63, 62, 62);
+  transition: 1s;
+  z-index: 100;
+}
+
+.nav-res__list {
+  list-style-type: none;
+}
+
+.nav-res__item {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-res__link {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #1d2130;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.nav-res__link:hover {
+  color: white;
+}
+
+#navbar-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}

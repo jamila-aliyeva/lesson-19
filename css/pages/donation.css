@@ -1,0 +1,290 @@
+@import "../base/global.css";
+
+.header_for_bg-color {
+  background-color: #eff7f2;
+}
+
+.donate {
+  background-color: #eff7f2;
+}
+
+.donate_main_wrap {
+  padding: 96px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.donate_top{
+display: flex;
+ align-items: center;
+ gap: 25px;
+}
+.donate_line{
+  /* margin-top: 105px; */
+  display: flex;
+  width: 72px;
+  height: 2px;
+  background: rgba(29, 33, 48, 1);
+}
+.donate-top_title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+}
+.donate_title {
+  margin-top: 32px;
+  margin-bottom: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  max-width: 627px;
+  color: #1d2130;
+}
+.donate_text {
+  margin-bottom: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 517px;
+  color: #525560;
+}
+.donate_btn {
+  padding: 16px 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #ffffff;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.donate_btn:hover {
+  background-color: #fff;
+  color: #70c174;
+  box-shadow: 0 5px 5px #70c174;
+}
+
+/* .line {
+  position: absolute;
+  width: 72px;
+  height: 0px;
+  left: 110px;
+  top: 172.5px;
+  border: 2px solid #1d2130;
+} */
+
+.protecting_main_wrap {
+  margin-top: 96px;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+}
+.proctecting_title {
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  max-width: 592px;
+  color: #1d2130;
+}
+.protecting_text {
+  margin-bottom: 92px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 592px;
+  color: #525560;
+}
+.protecting_sections {
+  padding-bottom: 14px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.protecting_link:hover {
+  padding-bottom: 14px;
+  border-bottom: 3px solid #70c174;
+}
+.protecting_link {
+  margin-right: 48px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d2130;
+}
+.using_wrap {
+  margin: 96px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.using_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  max-width: 374px;
+  color: #1d2130;
+}
+.using_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  width: 338px;
+  color: #525560;
+}
+.using_end_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 374px;
+  color: #525560;
+}
+
+@media (max-width: 1126px) {
+  .donate_main_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .donate_left {
+    text-align: center;
+  }
+  .donate_title {
+    width: 527px;
+    margin: 0 auto;
+  }
+  .donate_text {
+    margin: 30px auto;
+  }
+  .donate_img {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .protecting_main_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .protecting_left {
+    margin: 0 auto;
+  }
+  .protecting_right {
+    margin: 0 auto;
+  }
+  .protecting_sections {
+    text-align: center;
+  }
+  .using_title {
+    margin: 0 auto;
+    margin-bottom: 96px;
+    text-align: center;
+  }
+  .using_text {
+    margin: 0 auto;
+    margin-bottom: 96px;
+  }
+  .using_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .using_end_text {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 620px) {
+  .donate_title {
+    width: 427px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .proctecting_title {
+    width: 311px;
+  }
+  .proctecting_text {
+    width: 311px;
+  }
+}
+
+@media (max-width: 456px) {
+  .donate_left {
+    text-align: center;
+  }
+  .donate_title {
+    max-width: 427px;
+  }
+  .donate_text {
+    max-width: 238px;
+    margin: 30px 0px;
+  }
+}
+
+.greener {
+  background-image: url();
+}
+
+.greener__container {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 384px;
+  background: url(../../images/home/greneer.png) no-repeat;
+}
+.greener__title {
+  max-width: 631px;
+  height: 116px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+.greener__btn {
+  margin-top: 32px;
+  margin-right: 64px;
+  padding: 16px 32px;
+  background: #ffffff;
+  backdrop-filter: blur(40px);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d2130;
+  transition: 0.5s;
+}
+.greener__btn:hover {
+  background: #70c174;
+  color: #fff;
+}
+@media (max-width: 700px) {
+  .greener__title {
+    font-size: 25px;
+  }
+  .greener__btn {
+    font-size: 15px;
+  }
+}

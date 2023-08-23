@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home </title>
+    <link rel="stylesheet" href="./css/pages/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="scrolltop" onclick="scrollToTop();"><a href="#"></a></div>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <img src="./images/home/header-logo.png" alt="logo" />
+        </div>
+        <nav class="navbar">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="header__nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./about-us.html" class="header__nav__link">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="./what-we-do.html" class="header__nav__link"
+                >What We Do</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./media.html" class="header__nav__link">Media</a>
+            </li>
+            <li class="nav__item">
+              <a href="./contact-us.html" class="header__nav__link">Contact</a>
+            </li>
+          </ul>
+          <button href="donation.html" class="header__nav__btn">Donate</button>
+        </nav>
+
+        <button class="hamburger" id="navbar-open">
+          <img src="./images/home/menu.svg" alt="" />
+        </button>
+      </div>
+      <div id="navbar-responsive">
+        <ul class="nav-res__list">
+          <li class="nav-res__item">
+            <a href="./index.html" class="nav-res__link">Home</a>
+          </li>
+          <li class="nav-res__item">
+            <a href="./about-us.html" class="nav-res__link">About us</a>
+          </li>
+          <li class="nav-res__item">
+            <a href="./what-we-do.html" class="nav-res__link">What we do</a>
+          </li>
+          <li class="nav-res__item">
+            <a href="./media.html" class="nav-res__link">Media</a>
+          </li>
+          <li class="nav-res__item">
+            <a href="./contact-us.html" class="nav-res__link">contact</a>
+          </li>
+        </ul>
+        <button id="navbar-close">
+          <img src="./images/home/close.svg" alt="" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container">
+          <h1 class="home__title">
+            Save the environment today for a better tomorrow
+          </h1>
+          <div class="home__btns">
+            <button class="home__bts__btn">What we do</button>
+            <div class="home__links">
+              <i class="fa-regular fa-circle-play"></i>
+              <a class="home__link" href="">Play Video</a>
+            </div>
+          </div>
+          <div class="home__end">
+            <div class="home__end__planted">
+              <h3>23,800 trees planted</h3>
+            </div>
+            <div class="home__end__border"></div>
+            <div class="donations"><h3>5840 donations collected</h3></div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__aside">
+            <div class="about__border"></div>
+            <div class="about__aside__texts">
+              <h5>Know About us</h5>
+              <h3>We help nature smile and survive everywhere</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+
+                <span class="about__aside__text">
+                  ‍Duis cursus, mi quis viverra ornare, eros dolor interdum
+                  nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                  et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                  risus tristique posuere.</span
+                >
+              </p>
+              <button href="./about-us.html" class="about__aside__btn">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="about__bside">
+            <img
+              src="./images/home/Video.png"
+              alt="video"
+              class="about__bside__img"
+            />
+          </div>
+        </div>
+        <div class="container">
+          <div class="about__end__wrapper">
+            <h3 class="about__end__title">our Supporters</h3>
+            <div class="about__end__border"></div>
+          </div>
+          <div class="about__end__imgs">
+            <img src="./images/home/Logo.png" alt="" />
+            <img src="./images/home/Logo (1).png" alt="" />
+            <img src="./images/home/Logo (2).png" alt="" />
+            <img src="./images/home/Logo (3).png" alt="" />
+            <img src="./images/home/Logo (4).png" alt="" />
+            <img src="./images/home/Logo (5).png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="what-we-do">
+        <div class="container">
+          <div class="what-we-do__wrapper">
+            <div class="what-we-do__aside">
+              <div class="what-we-do__aside__border"></div>
+              <div class="what-we-do__aside__texts">
+                <h5>What we do</h5>
+                <h3>We care for earth, care for the coming birth</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+                <div class="what-we-do__aside__list">
+                  <div class="w__aside__list__border"></div>
+                  <div class="w__aside__list__img">
+                    <img src="./images/home/Icon.png" alt="" />
+                    <img src="./images/home/Icon (1).png" alt="" />
+                    <img src="./images/home/Icon (2).png" alt="" />
+                    <img src="./images/home/Icon (3).png" alt="" />
+                  </div>
+                  <div class="w__aside__list__texts">
+                    <h3>Build Healthy Cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <h3>Build Healthy Cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <h3>Build Healthy Cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <h3>Build Healthy Cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="what-we-do__bside">
+              <img
+                src="./images/home/what-we-do.png"
+                alt="sobaka laet karavan idyot"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="container">
+          <div class="project__wrapper">
+            <div class="project__border"></div>
+            <div class="project__texts">
+              <h5>Projects we have done</h5>
+
+              <h3 class="project__title">
+                We are Creating sustainable society, for everyone and forever.
+              </h3>
+            </div>
+          </div>
+
+          <div class="project__wrapper">
+            <div class="project__box">
+              <div class="project__imgBx">
+                <img src="./images/home/project-item (1).png" />
+              </div>
+              <div class="project__content">
+                <div>
+                  <h2>Mission 40K: Tree plantation</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                  <button class="project__btn">See more</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="project__box">
+              <div class="project__imgBx">
+                <img src="./images/home/project-item (2).png" />
+              </div>
+              <div class="project__content">
+                <div>
+                  <h2>Weekly cleanliness program in city</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                  <button class="project__btn">See more</button>
+                </div>
+              </div>
+            </div>
+            <div class="project__box">
+              <div class="project__imgBx">
+                <img src="./images/home/project-item (3).png" />
+              </div>
+              <div class="project__content">
+                <div>
+                  <h2>Wildlife safety program 2021</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                  <button class="project__btn">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="donations">
+        <div class="container">
+          <div class="donatin__wrapper">
+            <div class="donation__aside">
+              <h2>How we spend your donations and where it goes</h2>
+              <p>
+                We understand that when you make a  donation, you want to know
+                exactly where your money is going and we pledge to be
+                transparent.
+              </p>
+              <div class="donation__content">
+                <div class="donation__derc">
+                  <img src="./images/home/Rectangle 1311.png" alt="" />
+                  <h5>40% planting trees</h5>
+                </div>
+                <div class="donation__derc">
+                  <img src="./images/home/Rectangle 1311 (1).png" alt="" />
+                  <h5>10% animal safety</h5>
+                </div>
+                <div class="donation__derc">
+                  <img src="./images/home/Rectangle 1311 (2).png" alt="" />
+                  <h5>35% cleanliness program</h5>
+                </div>
+                <div class="donation__derc">
+                  <img src="./images/home/Rectangle 1311 (3).png" alt="" />
+                  <h5>5% feeding the poor</h5>
+                </div>
+                <div class="donation__derc">
+                  <img src="./images/home/Rectangle 1311 (4).png" alt="" />
+                  <h5>10% helping people</h5>
+                </div>
+              </div>
+            </div>
+            <div class="donation__bside">
+              <img src="./images/home/donation-Chart.png" alt="chart" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="greener">
+        <div class="container greener__container">
+          <h3 class="greener__title">
+            You can contribute to make the environment greener!
+          </h3>
+          <div class="grenner__bts">
+            <button class="greener__btn">Join as a volunteer</button>
+            <button class="greener__btn">Donate</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-and-events">
+        <div class="container">
+          <div class="new__box">
+            <h3 class="new__title">Read Our News</h3>
+            <div class="new__border"></div>
+          </div>
+          <div class="new__content">
+            <div class="new__content__item">
+              <img src="./images/home/Thumbnail.png" alt="" />
+              <h5>Don’t destroy greenery and don’t spoil scenery</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="new__content__item">
+              <img src="./images/home/Thumbnail (1).png" alt="" />
+              <h5>Don’t destroy greenery and don’t spoil scenery</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="new__content__item">
+              <a href="./event.html">
+                <img src="./images/home/Thumbnail (2).png" alt=""
+              /></a>
+              <h5>Don’t destroy greenery and don’t spoil scenery</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="new__content__item">
+              <a href="./event.html"
+                ><img src="./images/home/Thumbnail (3).png" alt=""
+              /></a>
+              <h5>Don’t destroy greenery and don’t spoil scenery</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+          </div>
+          <div class="events">
+            <div class="events__box">
+              <h3 class="events__box__title">Our Events</h3>
+              <div class="events__border"></div>
+            </div>
+
+            <div class="event__content">
+              <div class="event__content__box">
+                <div class="event__box__data">
+                  <h3>23</h3>
+                  <p>sep</p>
+                </div>
+                <div class="event__box__texts">
+                  <div class="event__box__title-border">
+                    <h5>Next Events</h5>
+                    <div class="event__box__border"></div>
+                  </div>
+                  <h3 class="event__box__title">
+                    Say no to plastic usage and save the planet
+                  </h3>
+                </div>
+                <div class="event__box__img">
+                  <img
+                    class="event__img"
+                    src="./images/home/evens-btn.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="event__content__box">
+                <div class="event__box__data">
+                  <h3>23</h3>
+                  <p>sep</p>
+                </div>
+                <div class="event__box__texts">
+                  <div class="event__box__title-border">
+                    <h5>Next Events</h5>
+                    <div class="event__box__border"></div>
+                  </div>
+                  <h3 class="event__box__title">
+                    Say no to plastic usage and save the planet
+                  </h3>
+                </div>
+                <div class="event__box__img">
+                  <img
+                    class="event__img"
+                    src="./images/home/evens-btn.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__aside">
+          <img src="./images/home/footer-Logo.png" alt="logo" />
+        </div>
+        <div class="footer__bside">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h3 class="footer__item__title">Our team</h3>
+              <a href="./about-us.html" class="footer__item__link">About us</a>
+              <a href="" class="footer__item__link">Team</a>
+              <a href="./what-we-do.html" class="footer__item__link"
+                >What we do</a
+              >
+              <a href="" class="footer__item__link">Connect</a>
+            </li>
+            <li class="footer__item">
+              <h3 class="footer__item__title">More</h3>
+              <a href="./project.html" class="footer__item__link">project</a>
+              <a href="./event.html" class="footer__item__link">Events</a>
+              <a href="./donation.html" class="footer__item__link">Donate</a>
+              <a href="" class="footer__item__link">Blog</a>
+            </li>
+            <li class="footer__item">
+              <h3 class="footer__item__title">Connect</h3>
+              <a href="" class="footer__item__link">Facebook</a>
+              <a href="" class="footer__item__link">Instagram</a>
+              <a href="" class="footer__item__link">Twiter</a>
+              <a href="" class="footer__item__link">Linkdin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__subscribe">
+          <h2 class="footer__subscribe__title">
+            Subscribe to get latest updates
+          </h2>
+          <input
+            class="footer__subscribe__input"
+            type="email"
+            placeholder="Your email"
+          />
+          <button class="footer__subscribe__btn">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- teginilmasin  -->
+    <script>
+      function openNavbar() {
+        document.getElementById("navbar-responsive").style.left = "0";
+        // document.getElementById("navbar-responsive").style.top = "0";
+      }
+      function closeNavbar() {
+        document.getElementById("navbar-responsive").style.left = "-100%";
+        // document.getElementById("navbar-responsive").style.top = "-100%";
+      }
+
+      document
+        .getElementById("navbar-open")
+        .addEventListener("click", openNavbar);
+      document
+        .getElementById("navbar-close")
+        .addEventListener("click", closeNavbar);
+
+      window.addEventListener("scroll", function () {
+        var scroll = document.querySelector(".scrolltop");
+        scroll.classList.toggle("active", window.scrollY > 500);
+      });
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    </script>
+    <!-- teginilmasin  -->
+  </body>
+</html>

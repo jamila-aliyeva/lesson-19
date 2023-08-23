@@ -1,0 +1,50 @@
+.greener{
+    background-image: url();
+}
+
+.greener__container {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 384px;
+    background: url(../../images/home/greneer.png) no-repeat;
+  }
+  .greener__title {
+    max-width: 631px;
+    height: 116px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .greener__btn {
+    margin-top: 32px;
+    margin-right: 64px;
+    padding: 16px 32px;
+    background: #ffffff;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1d2130;
+    transition: 0.5s;
+  }
+  .greener__btn:hover {
+    background: #70C174;
+    color: #fff;
+  }
+  @media (max-width: 700px) {
+    .greener__title {
+      font-size: 25px;
+    }
+    .greener__btn {
+      font-size: 15px;
+    }
+}

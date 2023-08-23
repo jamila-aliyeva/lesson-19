@@ -1,0 +1,102 @@
+
+
+.footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: rgba(11, 7, 6, 1);
+
+  }
+  
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__list {
+    display: flex;
+    gap: 95px;
+  }
+  
+  .footer__item__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+  }
+  .footer__item__link {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 160%;
+    color: #ffffff;
+    opacity: 0.78;
+    transition: 0.5s;
+  }
+  .footer__item__link:hover {
+    color: aquamarine;
+    transform: scale(1.5);
+  }
+  .footer__subscribe {
+    position: relative;
+    z-index: 10;
+  }
+  .footer__subscribe__title {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 32px;
+    max-width: 440px;
+    height: 112px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  .footer__subscribe__input {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24px;
+    width: 100%;
+    height: 64px;
+  
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    border-radius: 4px;
+  }
+  .footer__subscribe__btn {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 0;
+    padding: 20px 32px;
+    background: #ffffff;
+    backdrop-filter: blur(40px);
+    border-radius: 4px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1d2130;
+    transition: 0.5s;
+  }
+  .footer__subscribe__btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  @media (max-width: 1000px) {
+      .footer__container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 50px;
+      }
+  }
+  @media (max-width: 450px) {
+      .footer__item:nth-child(3) {
+          display: none;
+      }
+      footer__subscribe__title {
+          font-size: 35px;
+      }
+  }
+  
+  

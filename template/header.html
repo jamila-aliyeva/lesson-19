@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/pages/home.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+ <!-- teginilmasin  -->
+ <script>
+    function openNavbar() {
+document.getElementById("navbar-responsive").style.left = "0";
+// document.getElementById("navbar-responsive").style.top = "0";
+}
+function closeNavbar() {
+document.getElementById("navbar-responsive").style.left = "-100%";
+// document.getElementById("navbar-responsive").style.top = "-100%";
+}
+
+document.getElementById("navbar-open").addEventListener("click", openNavbar);
+document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+</script>
+ <!-- teginilmasin  -->
+
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+         <div class="header__logo">
+             <img src="./images/home/header-logo.png" alt="logo">
+         </div>
+         <nav class="navbar">
+            <ul class="nav__list">
+             <li class="nav__item">
+                  <a href="" class="header__nav__link">Home</a>
+             </li>
+             <li class="nav__item">
+                             <a href="" class="header__nav__link">About us</a>
+             </li>
+             <li class="nav__item">
+                             <a href="" class="header__nav__link">What We Do</a>
+             </li>
+             <li class="nav__item">
+                             <a href="" class="header__nav__link">Media</a>
+             </li>
+             <li class="nav__item">
+                             <a href="" class="header__nav__link">Contact</a>
+             </li>
+            </ul>
+            <button class="header__nav__btn">Donate</button>
+         </nav> 
+         
+           
+               <button class="hamburger" id="navbar-open">
+                 <img src="./images/home/menu.svg" alt="" />
+               </button>
+             </div>
+             <div id="navbar-responsive">
+               <ul class="nav-res__list">
+                 <li class="nav-res__item">
+                   <a href="#" class="nav-res__link">Home</a>
+                 </li>
+                 <li class="nav-res__item">
+                   <a href="#" class="nav-res__link">About us</a>
+                 </li>
+                 <li class="nav-res__item">
+                   <a href="#" class="nav-res__link">What we do</a>
+                 </li>
+                 <li class="nav-res__item">
+                   <a href="#" class="nav-res__link">Media</a>
+                 </li>
+                 <li class="nav-res__item">
+                   <a href="#" class="nav-res__link">contact</a>
+                 </li>
+               </ul>
+               <button id="navbar-close">
+                 <img src="./images/home/close.svg" alt="" />
+               </button>
+             </div>
+     </header>
+</body>
+</html>
